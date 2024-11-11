@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Our CBT App</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ADD8E6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Typography */
+        h1 {
+            font-size: 50px;
+            color: #333;
+            font-weight: bold;
+            margin: 0;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            font-weight: bold;
+            font-size: 35px;
+        }
+
+        /* Container Styles */
+        .container {
+            max-width: 800px;
+            background: white;
+            padding: 150px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            margin-top: 60px;
+        }
+
+        /* Button Styles */
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            color: white;
+            background-color: green;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+
+        /* Navigation Bar Styles */
+        .navbar {
+            width: 100%;
+            background-color: #333;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .navbar a:hover {
+            background-color: #575757;
+        }
+
+        .navbar a.active {
+            background-color: #04AA6D;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="index.html" class="active">Home</a>
+        <a href="download.html">Downloads</a>
+        <a href="subscription.html">Buy OSCE Activation Pin</a>
+        <a href="video.html">Tutorial Video</a>
+        <a href="installation.html">Installation Guide</a>
+        <a href="subscription.html">How To Use The App</a>
+        <a href="about.html">About Us</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1>CBT OSCE</h1>
+        <p>OSCE Exam Application for all Nursing Training Institutions in Nigeria</p>
+        <p><a href="subscription.html" class="button">Buy OSCE Activation Pin</a></p>
+    </div>
+</body>
+
+</html>
