@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Plans</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .plan {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 20px;
+            background: white;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            color: white;
+            background-color: blue;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Subscription Plans</h1>
+    <div class="plan">
+        <h2>Basic Plan</h2>
+        <p>Access to basic features of the CBT app.</p>
+        <p>Price: $10/month</p>
+        <a href="payment.php" class="button">Subscribe</a>
+    </div>
+    <div class="plan">
+        <h2>Premium Plan</h2>
+        <p>Access to all features and premium content.</p>
+        <p>Price: $20/month</p>
+        <a href="payment.php" class="button">Subscribe</a>
+    </div>
+</body>
+
+</html>
